@@ -1,0 +1,23 @@
+body {
+  background-image: url("./cropped-back4.jpg");
+  background-repeat: no-repeat;
+}
+
+.bg {
+  background-color: white;
+}
+
+@media (max-width: 425px) {
+  .left_title {
+    padding: 10px !important;
+  }
+  .block_text b {
+    font-size: 20px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .right_button {
+    margin-top: 50px;
+  }
+}
